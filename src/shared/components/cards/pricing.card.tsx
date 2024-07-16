@@ -17,7 +17,7 @@ const PricingCard = ({ active }: { active: string }) => {
     };
 
     return (
-        <div className="w-full md:flex items-start justify-around py-8">
+        <div className="w-full md:flex items-start justify-around py-8 bg-white text-black">
             {/* free plan */}
             <div className="md:w-[400px] bg-white rounded p-5 my-5 md:my-0">
                 <svg
